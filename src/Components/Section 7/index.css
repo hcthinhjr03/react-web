@@ -1,0 +1,102 @@
+/* Section seven  */
+.section-seven {
+    background-color: #F2F2FE;
+    padding: 70px 0;
+}
+
+.section-seven .inner-head h2 {
+    font-weight: 500;
+    font-size: 28px;
+    color: #1e1e1e;
+    letter-spacing: 1.75px;
+    line-height: 38px;
+    margin-bottom: 20px;
+}
+
+.section-seven .inner-head p {
+    font-size: 15px;
+    color: #777;
+    margin-bottom: 30px;
+    line-height: 28px;
+    letter-spacing: 1px;
+    font-weight: 400;
+}
+
+.section-seven .inner-box {
+    background: #FFFFFF;
+    box-shadow: 0 2px 48px 0 rgb(0 0 0 / 10%);
+    border-radius: 20px;
+    margin-bottom: 30px;
+    margin-top: 20px;
+    padding: 30px 0px 40px 0px;
+}
+
+.section-seven .inner-title {
+    font-weight: 500;
+    font-size: 17px;
+    letter-spacing: 0.25px;
+    color: #1e1e1e;
+    width: 180px;
+    height: 40px;
+    line-height: 40px;
+    margin: auto;
+}
+
+.section-seven .inner-price {
+    padding-top: 20px;
+    padding-bottom: 13px;
+    background: var(--color-one);
+    width: 80%;
+    margin: auto;
+    margin-bottom: 40px;
+    margin-top: 5px;
+    border-radius: 20px;
+    color: #FFFFFF;
+}
+
+.section-seven .active {
+    background-color: var(--color-two);
+}
+
+.section-seven .inner-price .unit {
+    font-size: 32px;
+    font-weight: 500;
+}
+
+.section-seven .inner-price .number {
+    font-size: 28px;
+    font-weight: 500;
+}
+
+.section-seven .inner-price .time {
+    font-size: 14px;
+    display: block;
+    letter-spacing: 0.88px
+}
+
+.section-seven .inner-list ul {
+    list-style: none;
+    padding: 0;
+}
+
+.section-seven .inner-list ul li {
+    margin-bottom: 12px;
+    font-weight: 400;
+    font-size: 13px;
+    color: #7a7a7a;
+    letter-spacing: 0.25px;
+}
+
+.section-seven .inner-list ul li.none {
+    text-decoration: line-through;
+}
+
+.section-seven .inner-button {
+    margin-top: 50px;
+}
+
+.section-seven .inner-button a {
+    text-decoration: none;
+    color: #fff;
+}
+/*End Section seven  */

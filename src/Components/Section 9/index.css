@@ -1,0 +1,70 @@
+/* Section nine */
+
+.section-nine {
+    padding: 100px 0;
+}
+
+.section-nine .inner-head h2 {
+    font-weight: 500;
+    font-size: 28px;
+    color: #1e1e1e;
+    letter-spacing: 1.75px;
+    line-height: 38px;
+    margin-bottom: 20px;
+}
+
+.section-nine .inner-text {
+    text-align: center;
+    font-weight: 400;
+    font-size: 15px;
+    color: #777;
+    line-height: 28px;
+    letter-spacing: 1px;
+    margin-bottom: 50px;
+}
+
+.section-nine .inner-box {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.section-nine .inner-img {
+    overflow: hidden;
+    border-radius: 20px;
+    position: relative;
+    height: 200px;
+}
+
+.section-nine .inner-content {
+    margin-top: -30px;
+    padding-top: 50px;
+}
+
+.section-nine .inner-content h3 a {
+    font-weight: 500;
+    font-size: 18px;
+    color: #1e1e1e;
+    letter-spacing: 0.25px;
+    line-height: 26px;
+    transition: all 0.3s;
+    text-decoration: none;
+}
+
+.section-nine .inner-content h3 a:hover {
+    color: var(--color-two);
+}
+
+.section-nine .inner-desc {
+    font-weight: 400;
+    font-size: 13px;
+    color: #777;
+    letter-spacing: 0.26px;
+    line-height: 26px;
+    margin-bottom: 30px;
+}
+
+.section-nine .inner-content a {
+    text-decoration: none;
+    color: #fff;
+}
+/*End Section nine */

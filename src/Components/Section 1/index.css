@@ -1,0 +1,70 @@
+/* Section one  */
+.section-one {
+    background-image: url(../../Images/welcome.png);
+    background-size: cover;
+    background-position: center center;
+    height: 100vh;
+    position: relative;
+}
+
+.section-one .inner-wrap {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-55%);
+    width: 100%;
+}
+
+.section-one .inner-content {
+    color: var(--color-four);
+}
+
+.section-one .inner-content h2 {
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 54px;
+    letter-spacing: 1.4px;
+    margin-bottom: 30px;
+}
+
+.section-one .inner-content h2::selection {
+    background-color: var(--color-two);
+}
+
+.section-one .inner-content strong::selection {
+    background-color: var(--color-two);
+}
+
+.section-one .inner-content p {
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 28px;
+    letter-spacing: 0.25px;
+    margin-bottom: 40px;
+}
+
+.section-one .inner-content p::selection {
+    background-color: var(--color-two);
+}
+
+.section-one .inner-content a {
+    text-decoration: none;
+}
+
+.section-one .inner-content a:hover {
+    color: var(--color-four);
+}
+
+
+@media screen and (max-width: 768px) {
+    .section-one .inner-content h2 {
+        font-size: 24px;
+        line-height: 30px;
+        font-weight: 600;
+    }
+    .section-one .inner-content p {
+        font-size: 14px;
+        line-height: 22px;
+        margin-bottom: 40px;
+    }
+}
+/* End Section one  */

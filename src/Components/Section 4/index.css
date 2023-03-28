@@ -1,0 +1,22 @@
+/* Section four  */
+.section-four {
+    padding: 100px 0;
+}
+
+.section-four .inner-img {
+    margin: 0 80px;
+}
+
+.section-four .inner-content h2 {
+    font-size: 24px;
+    margin-bottom: 30px;
+}
+
+.section-four .inner-content p {
+    font-size: 16px;
+    color: var(--color-three);
+    margin-bottom: 30px;
+    line-height: 28px;
+    letter-spacing: 1px;
+}
+/*End Section four  */

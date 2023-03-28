@@ -1,0 +1,68 @@
+/* Section two  */
+.section-two {
+    padding-bottom: 0px;
+    padding-top: 30px;
+    margin-top: -220px;
+    z-index: 9;
+}
+
+.section-two .inner-box {
+    cursor: pointer;
+    background-color: var(--color-four);
+    box-shadow: 0 2px 48px 0 rgb(0 0 0 / 10%);
+    border-radius: 20px;
+    text-align: center;
+    padding: 30px;
+    transition: all 0.3s;
+    margin-bottom: 30px;
+}
+
+.section-two .inner-img {
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    background-color: var(--color-one);
+    margin: auto;
+    line-height: 90px;
+    transition: all 0.3s;
+    margin-bottom: 30px;
+}
+
+.section-two .inner-title p {
+    font-weight: 500;
+    font-size: 18px;
+    color: #1e1e1e;
+    letter-spacing: 0.7px;
+    margin-bottom: 15px;
+}
+
+.section-two .inner-title p::selection {
+    background-color: var(--color-two);
+}
+
+.section-two .inner-desc p {
+    font-weight: 400;
+    font-size: 13px;
+    color: var(--color-three);
+    letter-spacing: 0.5px;
+    line-height: 25px;
+    margin-bottom: 0;
+}
+
+.section-two .inner-desc p::selection {
+    background-color: var(--color-two);
+    color: var(--color-four);
+}
+
+.section-two .inner-box:hover .inner-img {
+    background-color: var(--color-two);
+}
+
+
+@media screen and (max-width: 992px) {
+    .section-two {
+        margin-top: 0;
+    }
+}
+
+/*End Section two  */

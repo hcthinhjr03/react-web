@@ -1,0 +1,77 @@
+/* Section six  */
+
+.section-six {
+    padding: 70px 0;
+}
+
+.section-six .inner-content h2 {
+    font-weight: 500;
+    font-size: 28px;
+    color: #1e1e1e;
+    letter-spacing: 1.75px;
+    line-height: 38px;
+    margin-bottom: 20px;
+}
+
+.section-six .inner-content p {
+    font-size: 15px;
+    color: #777;
+    margin-bottom: 50px;
+    line-height: 28px;
+    letter-spacing: 1px;
+}
+
+.section-six .inner-box {
+    background: #fff;
+    box-shadow: 0 2px 48px 0 rgb(0 0 0 / 10%);
+    border-radius: 20px;
+    position: relative;
+    margin-bottom: 30px;
+    padding-bottom: 25px;
+}
+
+.section-six .inner-items {
+    padding: 0 25px;
+    padding-top: 20px;
+}
+
+.section-six .inner-img {
+    padding: 20px 0;
+}
+
+.section-six .inner-desc {
+    margin-top: 15px;
+    margin-bottom: 25px;
+    font-weight: 400;
+    font-size: 15px;
+    color: #777;
+    letter-spacing: 0.6px;
+    line-height: 26px;
+}
+
+.section-six .inner-info {
+    display: flex;
+    align-items: center;
+}
+
+.section-six .inner-avt img {
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+.section-six .inner-name h3 {
+    font-weight: 400;
+    font-size: 17px;
+    color: #1e1e1e;
+    letter-spacing: 0.25px;
+    margin-bottom: 5px;
+}
+
+.section-six .inner-name p {
+    font-weight: 400;
+    font-size: 15px;
+    color: #ff589e;
+    letter-spacing: 0.25px;
+    margin: 0;
+}
+/*End Section six  */
